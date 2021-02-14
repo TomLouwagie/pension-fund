@@ -1,0 +1,15 @@
+.card {
+  /* height: h-100; */
+  /* display: flex; */
+  padding: 10px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card-title {
+  font-weight: bold;
+}

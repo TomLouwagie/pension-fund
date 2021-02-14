@@ -1,0 +1,13 @@
+:root {
+  --text-color: rgba(40, 40, 40, 1); /* text */
+  --background-grey: rgba(240, 240, 240, 1);; /* background */
+  --indigo-dye: #2b4162ff;
+  --deep-space-sparkle: #385f71ff;
+  --forest-green-crayola: #77ad78ff;
+  --magnolia: #f5f0f6ff; 
+  --forest-green-traditional: #03440cff;
+}
+
+/* Customize bootstrap colors
+https://www.youtube.com/watch?v=6Ovw43Dkp44&ab_channel=Academind
+https://travishorn.com/customizing-bootstrap-styles-step-by-step-5fdfd60d1116 */

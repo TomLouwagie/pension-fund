@@ -1,0 +1,67 @@
+/* --- Import Components stylesheets --- */
+@import url("components/card.css");
+@import url("components/colors.css");
+@import url("components/footer.css");
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Convention for CSS properties order */
+/* Positioning */
+/* Box model */
+/* Color */
+/* Text */
+
+/* Custom style */
+body {
+  background-color: white;
+  color: var(--text-color);
+  font-family: Open Sans;
+}
+
+h1 {
+  font-family: Poppins;
+  font-size: 26px;
+}
+
+h2 {
+  font-family: Poppins;
+  font-size: 24px;
+}
+
+h3, h4 {
+  font-family: Poppins;
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row.is-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.is-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbotron {
+  background-color: var(--background-grey);
+}
+
+.container {
+  margin: 50px auto;
+}
+
+.jumbotron {
+  /* background-color: var(--background-light-grey); */
+}
+
+#logo > img {
+  height: 40px;
+}
