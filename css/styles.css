@@ -1,10 +1,15 @@
 /* --- Import Components stylesheets --- */
+@import url("components/btn.css");
 @import url("components/card.css");
 @import url("components/colors.css");
 @import url("components/footer.css");
+@import url("components/navbar.css");
+
+
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); */
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
@@ -24,7 +29,7 @@ body {
 
 h1 {
   font-family: Poppins;
-  font-size: 26px;
+  font-size: 28px;
 }
 
 h2 {
@@ -32,9 +37,14 @@ h2 {
   font-size: 24px;
 }
 
-h3, h4 {
+h3 {
   font-family: Poppins;
-  font-size: 22px;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: Poppins;
+  font-size: 16px;
 }
 
 a {
@@ -65,3 +75,4 @@ a {
 #logo > img {
   height: 40px;
 }
+

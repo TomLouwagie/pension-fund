@@ -12,13 +12,11 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <!-- TODO: make logo link back to home page-->
-      <!-- TODO: make P straight like ProductHunt -->
-      <a class="navbar-brand" href="#" alt="PensionPlan logo" id="logo">
-        <img src="./images/logo-v1-removed-background.png" alt="">
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+      <a class="navbar-brand" href="#" id="logo">
+        <img src="./images/logo-v1-removed-background.png" alt="PensionPlan logo">
       </a>
-      <!-- Collapse the navbar and make it navbar-toggler-icon on small screens -->
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,46 +24,42 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="">Home</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Our promise<span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#our-promise">Our promise</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">About us<span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">Why PensionPlan?</a>
           </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Language
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">🇬🇧 English</a>
-              <a class="dropdown-item" href="#">🇩🇪 German</a>
-            </div>
-          </li> -->
         </ul>
-        <button type="button" class="btn btn-primary">Sign in</button>
       </div>
-    </nav>
+    </div>
 
     <!-- banner -->
     <div class="jumbotron">
       <h1 class="display-4">Welcome to PensionPlan</h1>
-      <p class="lead">We offer low-cost personal pension plans for all EU residents</p>
-      <!-- <p class="lead">A simple, digital pension fund offering low-cost ETFs, across all of EU</p> -->
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </p>
+      <p class="lead">We offer low-cost personal pension plans for all EU residents</p>      
+      <a class="typeform-share button" href="https://form.typeform.com/to/zCu7AnLB?typeform-medium=embed-snippet" data-mode="drawer_right" style="display:inline-block;text-decoration:none;background-color:var(--forest-green-crayola);color:white;cursor:pointer;font-family:Poppins,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:5px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Sign up</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+      <!-- <form class="form-inline" action="https://formspree.io/f/mleokqky" method="POST">
+        <a class="btn btn-flat btn-lg mr-1" type="submit" href="#" role="button">Learn more</a>
+        <div class="input-group input-group-lg">
+          <input class="form-control" type="text" name="email" placeholder="Your email address" width="1000px">
+          <span class="input-group-addon"></span>
+        </div>
+      </form> -->
     </div>
 
-    <!-- pitch -->
+    <!-- our promise -->
     <div class="container">
+      <a id="our-promise"><h1 class="text-center">Our promise</h1></a>
+      <hr width="80%">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
         <div class="col py-2">
           <div class="card h-100">
             <img src="./images/undraw_Finance_re_gnv2.svg" class="card-img-top" alt="...">
             <div class="card-body ">
-              <h5 class="card-title">Low cost</h5>
+              <h3 class="card-title">Low cost</h3>
               <p class="card-text">Keep more savings for yourself thanks to our low fees capped at 1% per year</p>
             </div>
           </div>
@@ -74,7 +68,7 @@
           <div class="card h-100">
             <img src="./images/undraw_researching_22gp.svg" class="card-img-top" alt="...">
             <div class="card-body ">
-              <h5 class="card-title">Simple</h5>
+              <h3 class="card-title">Simple</h3>
               <p class="card-text">Easily view all your savings online and keep full control about your payments</p>
             </div>
           </div>
@@ -83,7 +77,7 @@
           <div class="card h-100">
             <img src="./images/undraw_vault_9cmw.svg" class="card-img-top" alt="...">
             <div class="card-body ">
-              <h5 class="card-title">Safe</h5>
+              <h3 class="card-title">Safe</h3>
               <p class="card-text">Protect your savings with a diversified portfolio and safety buffer</p>
             </div>
           </div>
@@ -92,7 +86,7 @@
           <div class="card h-100">
             <img src="./images/undraw_sustainable.svg" class="card-img-top" alt="...">
             <div class="card-body ">
-              <h5 class="card-title">Sustainable</h5>
+              <h3 class="card-title">Sustainable</h3>
               <p class="card-text">Invest sustainably and support both the planet and your retirement</p>
             </div>
           </div>
@@ -100,25 +94,39 @@
       </div>
     </div>
 
-    <div class="container text-center" id="about-us">
-      <h2>What type of pension plans do you offer?</h2>
+    <!-- Dashboard preview -->
+
+    <!-- FAQ -->
+    <div class="container text-center w-50" id="faq">
+      <a id="faq"><h1 class="text-center">Why PensionPlan?</h1></a>
+      <hr width="80%">
+      <h4>A modern pension plan</h4>
       <p>We offer a pan-European pension product (PEPP). This is a voluntary personal pension scheme that allows Europeans to save extra for retirement. It is a simple, flexible, modern and cost-effective product, accompanied by strong consumer protection rules.</p>
-      <!-- In german: https://de.wikipedia.org/wiki/Europarente -->
-      <h2>Who can join PensionPlan?</h2>
-      <p>Every EU resident: employed, part-time, full-time self-employed or unemployed can save with a PEPP. It is particularly interesting for mobile workers who move between different EU countries as the plan if fully portable between countries.</p>
-      <h2>What is a personal pension?</h2>
-      <p>Personal pensions (also known as “private pensions”) are long-term savings products that individuals contribute to on a voluntary basis, complementing state and workplace pensions. They allow you to save extra for retirement with tax advantages.</p>
+      <h4>Safeguard your retirement</h4>
+      <p>Out personal pensions (also known as “private pensions”) are long-term savings products that individuals contribute to on a voluntary basis, complementing state and workplace pensions. They allow you to save extra for retirement with tax advantages.</p>
       <!-- source: https://ec.europa.eu/info/business-economy-euro/banking-and-finance/insurance-and-pensions/personal-pension-products_en -->
+      <h4>Save more using ETFs</h4>
+      <p>Saver for retirement with low-cost ETFs instead of expensive traditionalpension funds. Your money will be invested in a globally diversified portfolio of stocks and bonds.</p>
+      <!-- In german: https://de.wikipedia.org/wiki/Europarente -->
+      <h4>For every EU resident</h4>
+      <p>Every EU resident can enroll: employed, part-time, full-time self-employed or unemployed.</p>
+      <h4>Portable across borders</h4>
+      <p>Our pension plans is particularly interesting for mobile workers who move between different EU countries as the plan if fully portable between countries.</p>
     </div>
 
     <!-- footer -->
     <div class="footer">
-      <!-- <div class="links">
-        <a href="#"><i class="fab fa-fw fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-fw fa-github"></i></a>
-        <a href="#"><i class="fab fa-fw fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-fw fa-instagram"></i></a>
-      </div> -->
+      <div class="footer-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="footer-copyright">
+        
+        This footer is made with lots of <i class="fas fa-coffee"></i> and <i class="fas fa-heart"></i> by the PensionPlan team
+      </div>
     </div>
 
   <!-- Optional JavaScript -->
